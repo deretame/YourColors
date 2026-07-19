@@ -1,0 +1,24 @@
+# NW.js / GameCreator desktop runtime files
+YourColors.exe
+notification_helper.exe
+nw.dll
+node.dll
+ffmpeg.dll
+d3dcompiler_47.dll
+libEGL.dll
+libGLESv2.dll
+nw_elf.dll
+icudtl.dat
+v8_context_snapshot.bin
+nw_100_percent.pak
+nw_200_percent.pak
+resources.pak
+credits.html
+
+# Generated / user data
+log/
+savedata/
+
+# NW.js locale / swiftshader
+locales/
+swiftshader/

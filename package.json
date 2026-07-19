@@ -1,0 +1,26 @@
+{
+    "name": "YourColors-Game",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.html",
+    "nodejs": true,
+    "window": {
+        "toolbar": true,
+        "position": "center",
+        "width": 1600,
+        "height": 900,
+        "frame": true,
+        "webkit": {
+            "plugin": true
+        },
+        "icon": "icon.png",
+        "min_width": 100,
+        "minHeight": 100,
+        "maxWidth": 2000,
+        "maxHeight": 1000,
+        "resizable": true,
+        "always-on-top": false,
+        "fullscreen": false,
+        "kiosk": false
+    }
+}
