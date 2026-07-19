@@ -2,6 +2,16 @@
 
 使用 [GameCreator](https://www.gamecreator.com.cn) 制作的视觉小说 / 游戏项目。
 
+## 版权声明
+
+本项目仅供个人学习交流使用，版权归原作者及官方所有。
+
+- 下载本仓库内容后，请在 **24 小时内删除**。
+- 请勿用于商业用途或二次传播。
+- 如果你喜欢这款游戏，请支持正版，前往官方 Steam 商店页面下载：
+
+**👉 [https://store.steampowered.com/app/4831190/_/](https://store.steampowered.com/app/4831190/_/)**
+
 ## 在线预览
 
 仓库已开启 GitHub Pages，可直接访问：
