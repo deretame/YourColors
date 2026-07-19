@@ -4,7 +4,11 @@
 
 ## 在线预览
 
-仓库开启 GitHub Pages 后，可直接访问 `index.html` 在浏览器中运行（游戏主体为 HTML5，部分 NW.js 专属功能可能受限）。
+仓库已开启 GitHub Pages，可直接访问：
+
+**[https://deretame.github.io/YourColors/](https://deretame.github.io/YourColors/)**
+
+游戏主体为 HTML5，部分 NW.js 专属功能可能在浏览器中受限。
 
 ## 本地运行
 
