@@ -18,6 +18,15 @@ credits.html
 # Generated / user data
 log/
 savedata/
+asset_decrypted/
+
+# Dependencies
+node_modules/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
 
 # NW.js locale / swiftshader
 locales/

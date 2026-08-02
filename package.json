@@ -22,5 +22,8 @@
         "always-on-top": false,
         "fullscreen": false,
         "kiosk": false
+    },
+    "dependencies": {
+        "@zip.js/zip.js": "^2.8.31"
     }
 }

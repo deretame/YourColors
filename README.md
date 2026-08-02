@@ -30,6 +30,40 @@
 ### 方式二：浏览器
 直接在浏览器中打开 `index.html`。
 
+## 资源解密
+
+仓库中的 `asset/` 目录保存了游戏加密后的资源（图片、JSON 数据等）。项目中已提供了几个解密脚本，使用步骤如下：
+
+1. 安装依赖：
+   ```bash
+   npm install
+   ```
+
+2. 解密图片（`asset/image` → `asset_decrypted/image`）：
+   ```bash
+   node decrypt_images.js
+   ```
+   图片采用 GameCreator 资源加密：交换文件第 2、3 字节并删除中间位置字节，详见 `decrypt_images.js` 中的 `decryptAsset` 函数。
+
+3. 解密 JSON 数据（`asset/json` → `asset_decrypted/json`）：
+   ```bash
+   node decrypt_json.js
+   ```
+   JSON 文件本质是以 `gc_zip` / `gc_zip_2024` 为密码的 zip 压缩包，由 `decrypt_json.js` 负责解压。
+
+4. 提取剧情文本（输出到 `asset_decrypted/剧情文本.txt`）：
+   ```bash
+   node extract_dialogue.js
+   ```
+   `extract_dialogue.js` 会读取解密后的场景 JSON，并解析其中的对话命令。
+
+对应文件：
+- `decrypt_images.js` — 图片解密
+- `decrypt_json.js` — JSON 数据解密
+- `extract_dialogue.js` — 剧情文本提取
+
+解密脚本的输出目录为 `asset_decrypted/`，该目录不参与版本控制。
+
 ## 项目结构
 
 - `index.html` — 入口页面
